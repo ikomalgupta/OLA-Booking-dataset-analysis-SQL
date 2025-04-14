@@ -3,7 +3,7 @@
 
 This project involves the analysis of OLA booking data using SQL. The dataset contains ride-level details and includes information about booking status, customer behavior, ride details, cancellations, and ratings.
 
-## 🗂️ Dataset Description
+## Dataset Description
 
 | Column Name                  | Description |
 |-----------------------------|-------------|
@@ -28,7 +28,7 @@ This project involves the analysis of OLA booking data using SQL. The dataset co
 | `customer_rating`           | Ratings given to the customer |
 | `vehicle_images`            | Path to the image of vehicle |
 
-## 🛠️ SQL Tasks Included
+## SQL Tasks Included
 
 - Creating database 
 - Importing CSV data into MySQL
@@ -39,20 +39,20 @@ This project involves the analysis of OLA booking data using SQL. The dataset co
 - Payment preferences by pickup location
 - Booking trends over time
 
-## ✅ Query Validation
+## Query Validation
 
 The queries in this project were reviewed and corrected for:
 - NULL value handling
 - Correct column data types (e.g., integers, decimals)
 - Proper logical conditions using `IS NOT NULL` and `<> 'null'` where applicable
 
-## ⚠️ Notes
+## Notes
 
 - Ensure `local_infile` is enabled in your MySQL server (`SET GLOBAL local_infile = 1;`).
 - Data must be in `.csv` format for successful import.
 - Avoid using Excel (`.xlsx`) files directly in `LOAD DATA INFILE`.
 
-## 📥 How to Import the Data in MySQL
+## How to Import the Data in MySQL
 
 1.  Convert the `.xlsx` file to `.csv`. (If necessary)
 2.  Move the file to: Correct Directory
@@ -73,25 +73,25 @@ The queries in this project were reviewed and corrected for:
     **Note:** Ensure that the path to your CSV file is correct and that you have the necessary permissions to load data into the MySQL server.
 
 
-## 📁 File Structure
+## File Structure
 
 - `OLA_Booking_Dataset.csv`: Dataset
 - `OlA-Booking-Analysis-queries.sql`: Contains all SQL queries for analysis.
 
 
-## 📊 Tools Used
+## Tools Used
 
 - MySQL 8.0
 - SQL Workbench / Command Line
 - OLA Booking CSV dataset
 
-## 🚀 How to Run
+## How to Run
 
 1. Open MySQL.
 2. Run the script from `OlA-Booking-Analysis-queries.sql`.
 3. Perform analysis using SELECT queries.
 
-## 📬 Contributions
+## Contributions
 
 Feel free to fork this repo, suggest improvements, or use these queries for your own dataset analysis projects!
 
